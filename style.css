@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 24px;
+}
+
+p{
+    font-size: 24px;
+    font-weight: bold;
+    color: aqua;
+}
+
+.bg{
+    background-image: url(src/image/sunset.jpg);
+    background-color: green;
+}
+
+.bg-image{
+    height: 427px;
+    width: 640px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    height: 550px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 550px;
+}
+
+.bg-position{
+    height: 550px;
+    background: #000 url(src/image/sunset.jpg)
+    no-repeat right top;
+}
+
+ul{
+    margin-bottom: 50px;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.em-bloco li{
+    background-color: aqua;
+    margin-bottom: 30px;
+    width: 100px;
+}
+
+.em-linha li{
+    background-color: aqua;
+    display: inline;
+}
+
+.linha-e-bloco li{
+    background-color: aqua;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+.sem-nada{
+    display: none;
+}
+
+.elemento{
+    color: #fff;
+    font-size: 32px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico{
+    background-color: red;
+}
+
+.elemento-relativo{
+    position: relative;
+    background-color: aqua;
+    left: 100px;
+}
+
+.elemento-absoluto{
+    position: absolute;
+    background-color: #000;
+    left: 250px;
+}
+
+.elemento-relativo-com-filho{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: antiquewhite;
+}
+
+.elemento-absoluto-com-pai{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    background-color: darkblue;
+}
